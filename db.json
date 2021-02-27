@@ -34,6 +34,16 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "Sber",
+      "user_id": "jso28akll8zmbd",
+      "id": "jso34wklnv8i9c"
+    },
+    {
+      "name": "Газпромбанк",
+      "user_id": "jso28akll8zmbd",
+      "id": "jso3pjklo53k5z"
     }
   ],
   "transactions": [
@@ -171,6 +181,42 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "jso3p4klo535oq",
+      "type": "income",
+      "name": "Перевод",
+      "sum": 178000,
+      "account_id": "jso34wklnv8i9c",
+      "user_id": "jso28akll8zmbd",
+      "created_at": "2021-02-27T19:50:44.617Z"
+    },
+    {
+      "id": "jso3puklo54sl3",
+      "type": "income",
+      "name": "Зарплата",
+      "sum": 178000,
+      "account_id": "jso3pjklo53k5z",
+      "user_id": "jso28akll8zmbd",
+      "created_at": "2021-02-27T19:52:00.950Z"
+    },
+    {
+      "id": "jso3y7klo5w1ob",
+      "type": "income",
+      "name": "Гонорар",
+      "sum": 22000,
+      "account_id": "jso34wklnv8i9c",
+      "user_id": "jso28akll8zmbd",
+      "created_at": "2021-02-27T20:13:12.442Z"
+    },
+    {
+      "id": "jso3ydklo5wh2y",
+      "type": "expense",
+      "name": "Кварплата",
+      "sum": 5000,
+      "account_id": "jso3pjklo53k5z",
+      "user_id": "jso28akll8zmbd",
+      "created_at": "2021-02-27T20:13:32.409Z"
     }
   ]
 }

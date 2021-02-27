@@ -92,8 +92,7 @@ class AccountsWidget {
    * */
   onSelectAccount( element ) {
     if ( this.currentAccountId ) {
-      const account = this.element
-          .querySelector( `.account[data-id="${this.currentAccountId}"]` );
+      const account = this.element.querySelector( `.account[data-id="${this.currentAccountId}"]` );
       if (account) {
         account.classList.remove( 'active' );
       }
